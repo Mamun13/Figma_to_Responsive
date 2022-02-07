@@ -1,0 +1,271 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media (min-width: 480px) and (max-width: 767px) { 
+    #contact .container .content {
+        margin: 0px;
+        margin-left: 2px;
+     }
+     #contact .container .content .img img {
+         height: 100px;
+         margin-top: 18px;
+        padding-left: 87px;
+     }
+     #contact .container .content .text h2{
+        font-size: 18px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+     } 
+     .form-control {
+         margin-bottom: 130px;
+    }
+    #contact .container .content .text form button {
+        margin-left: 345px;
+        margin-top: -258px;
+        padding: 11px 18px;
+    }
+    #footer .container .right{
+        margin-top: -45px;
+    }
+    #question .container .text1 h1 {
+        text-align: center;
+    }
+    #question .container img {
+        height: 400px;
+        margin-bottom: -50px;
+        margin-left: -38px;
+    }
+    #pricing .container .pricing_basic button {
+        margin-left: 80px;
+    }
+    #details .container .profile img{
+        margin-top: 55px;
+        margin-left: 20px;
+    }
+    #amazing .container .text h1{
+        text-align: center;
+    }
+    #amazing .container .text p{
+        text-align: center;
+    }
+    #amazing .container .text .icon_part1 {
+        margin-left: 60px;
+    }
+    #amazing .container .img .amz_img2 {
+        height: 200px;
+    }
+    #amazing .container .img .amz_img3 {
+        height: 200px;
+    }
+    .img {
+        padding-left: 114px;
+    }
+    #amazing .container .img .amz_img1 {
+        height: 99px;
+        top: 279%;
+        left: 35%;
+    }
+    .banner .container .img3 {
+        top: -35%;
+        left: 40%;
+        height: 206px;
+        width: 227px;
+    }
+    #amazing .container .img .amz_img4 {
+        position: absolute;
+        height: 69px;
+        bottom: -264%;
+        left: 32%;
+    }
+    
+    .banner .container .img2 {
+        height: 260px;
+        width: 334px;
+        margin-top: -20px;
+        margin-left: 44px;
+    }
+    .banner .container .img2 {
+        height: 271px;
+        width: 334px;
+        margin-top: -20px;
+        margin-left: 44px;
+    }
+    .banner .container .img1 {
+        height: 65px;
+        width: 243px;
+        margin-left: 86px;
+        margin-top: 60px;
+    }
+    .banner .container .img4 {
+        top: -29%;
+        left: -50%;
+        height: 66px;
+        width: 176px;
+    }
+    .banner .container h1 {
+        text-align: center;
+    }
+    .banner .container p {
+        text-align: center;
+    }
+    .banner .container button {
+        margin-left: 116px;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+    #contact .container .content .img img {
+        height: 259px;
+        margin-left: 6px;
+        margin-top: 2px;
+    }
+    #contact .container .content .text h2 {
+        float: right;
+        font-size: 20px;
+    }
+    #contact .container .content {
+       margin: 0px;
+       margin-left: 5px;
+    }
+    #contact .container .content .text form button {
+        margin-left: 211px;
+        margin-top: -54px;
+        padding: 11px 18px;
+    }
+    #question .container .text1 h1 {
+        text-align: center;
+        padding-top: 15px;
+    }
+    #question .container img {
+        margin-left: -13px;
+    }
+    div#accordionExample {
+        margin-left: 15px;
+    }
+    #pricing .container .pricing_basic button {
+        margin-left: 170px;
+        padding: 15px 100px;
+    }
+    #details .container .profile img{
+        margin-left: 88px;
+        height: 500px;
+        margin-top: 60px;
+    }
+    #amazing .container .text h1 {
+        text-align: center;
+    }
+    #amazing .container .text p {
+        text-align: center;
+    }
+    #amazing .container .text .icon_part1 {
+        margin-left: 172px;
+    }
+    .img {
+        padding-left: 145px;
+    }
+    #amazing .container .img .amz_img2 {
+        height: 300px;
+    }
+    #amazing .container .img .amz_img3{
+        height: 300px;
+    }
+    #amazing .container .img .amz_img1 {
+        height: 123px;
+        top: 267%;
+        left: 36%;
+    }
+    #amazing .container .img .amz_img4 {
+        height: 86px;
+        bottom: -286%;
+        left: 32%;
+    }
+    .banner .container .img1 {
+        margin-top: -27px;
+    }
+    .banner .container .img2 {
+        margin-left: 86px;
+    }
+    .banner .container .img4 {
+        top: -32%;
+        left: -31%;
+    }
+    .banner .container .img1 {
+        margin-left: 159px;
+    }
+    .banner .container .img3 {
+        top: -43%;
+        left: 40%;
+    }
+    .banner .container h1 {
+        text-align: center;
+    }
+    .banner .container p {
+        text-align: center;
+    }
+    .banner .container button {
+        margin-left: 227px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    #details .container .profile img{
+        height: 484px;
+    }
+     .laptop{
+        width: 300px;
+        height: 300px;
+        margin-top: -31px;
+    }
+    #contact .container .content .text h2 {
+        font-size: 25px;
+        padding-top: 18px;
+        padding-bottom: 20px;
+    }
+    #contact .container .content .text form button{
+        margin-left: 253px;
+        margin-top: 4px;
+        padding: 11px 18px;
+    }
+    #question .container img{
+        height: 450px;
+        margin-top: 151px;
+        margin-left: 18px;
+    }
+    #pricing .container .pricing_basic button{
+        padding-left: 40px;
+        padding-right: 40px
+    }
+    #amazing .container .img .amz_img2 {
+        height: 320px;
+    }
+    #amazing .container .img .amz_img3 {
+        height: 320px;
+        margin-top: 82px; 
+    }
+    #amazing .container .img .amz_img4 {
+        height: 85px;
+        bottom: -216%;
+    }
+    #amazing .container .img .amz_img1 {
+        height: 128px;
+        top: 191%;
+    }
+    .banner .container .img3 {
+        top: -33%;
+        left: 40%;
+    }
+    .banner .container .img4 {
+        top: -48%;
+        left: -8%;
+        height: 82px;
+        width: 221px;
+    }
+    #details .container {
+        margin-top: 90px;
+        padding-bottom: 120px;
+    }
+ }
+
