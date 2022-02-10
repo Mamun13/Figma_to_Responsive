@@ -663,7 +663,97 @@ header #navigation nav .signup:hover{
     border: 0px;
 }
 
-
+/* comment part start */
+#comment .container h2{
+    font-size: 40px;
+    font-weight: 400;
+    color: #000;
+    padding-bottom: 25px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-family: 'Rubik', sans-serif;
+    text-transform: capitalize;
+    position: relative;
+    display: inline-block;
+}
+#comment .container h2:after{
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 3px;
+    background: #1CBD9D;
+    left: 50%;
+    bottom: 50px;
+    transform: translate(-50%);
+}
+#comment .container .comment{
+    margin-right: 20px;
+    border: 2px dashed #8976FF;
+    border-radius: 20px;
+}
+#comment .container .comment img{
+    margin-top: -54px;
+}
+#comment .container .comment .marketer{
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 25px;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+#comment .container .comment .marketer_comment{
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+}
+#comment .container .comment_two{
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 2px dashed #8976FF;
+}
+#comment .container .comment_two img{
+    margin-top: -54px;
+}
+#comment .container .comment_two .marketer{
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 25px;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+#comment .container .comment_two .marketer_comment{
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+}
+#comment .container .comment_three{
+    border-radius: 20px;
+    margin-left: 20px;
+    border: 2px dashed #8976FF;
+}
+#comment .container .comment_three img{
+    margin-top: -54px;
+}
+#comment .container .comment_three .marketer{
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+#comment .container .comment_three .marketer_comment{
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+}
+/* comment part end */
 
 #contact .container .content{
     background: #1CBD9D;
@@ -676,7 +766,6 @@ header #navigation nav .signup:hover{
 #contact .container .content .img img{
     margin-top: -112px;
 }
-
 #contact .container .content .img img{
         position: relative;
         animation-name: contact;
@@ -691,7 +780,7 @@ header #navigation nav .signup:hover{
 }
 #contact .container .content .text form button{
     
-    margin-left: 427px;
+    margin-left: 402px;
     margin-top: 4px;
     padding: 11px 18px;
 }

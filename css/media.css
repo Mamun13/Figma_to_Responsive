@@ -112,6 +112,28 @@
     .banner .container button {
         margin-left: 116px;
     }
+    #comment .container .comment {
+        margin-right: 0px; 
+        margin-bottom: 42px;
+    }
+    #comment .container .comment img{
+        margin-left: -128px;
+    }
+    #comment .container .comment_two {
+        margin-right: 0px; 
+        margin-left: 0px; 
+        margin-bottom: 42px;
+    }
+    #comment .container .comment_two img{
+        margin-left: -128px;
+    }
+    #comment .container .comment_three {
+        margin-left: 0px; 
+        margin-bottom: 50px;
+    }
+    #comment .container .comment_three img{
+        margin-left: -128px;
+    }
  }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -206,6 +228,28 @@
     }
     .banner .container button {
         margin-left: 227px;
+    }
+    #comment .container .comment {
+        margin-right: 0px; 
+        margin-bottom: 42px;
+    }
+    #comment .container .comment img{
+        margin-left: -128px;
+    }
+    #comment .container .comment_two {
+        margin-right: 0px; 
+        margin-left: 0px; 
+        margin-bottom: 42px;
+    }
+    #comment .container .comment_two img{
+        margin-left: -128px;
+    }
+    #comment .container .comment_three {
+        margin-left: 0px; 
+        margin-bottom: 50px;
+    }
+    #comment .container .comment_three img{
+        margin-left: -128px;
     }
 }
 
