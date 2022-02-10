@@ -330,7 +330,7 @@ header #navigation nav .signup:hover{
 #amazing .container .img .amz_img1{
     position: absolute; 
     height: 162px;
-    top: 80%;
+    top: 90%;
     left: 15%;
 } 
 #amazing .container .img .amz_img2{
@@ -363,7 +363,7 @@ header #navigation nav .signup:hover{
 #amazing .container .img .amz_img4{
     position: absolute;
     height: 114px;
-    bottom: -65%;
+    bottom: -78%;
     left: 10%;
 }
 #amazing .container .text h1{
